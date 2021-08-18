@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = GRPCServer
+build_property.ProjectDir = /Users/jakecummings/Projects/BuildCircleGRPC/GRPCServer/
