@@ -5,6 +5,7 @@ option csharp_namespace = "GRPCClient";
 package game;
 
 // The greeting service definition.
+
 service Game {
   // Sends a greeting
   rpc PlayGame (GameRequest) returns (EvaluateGame);

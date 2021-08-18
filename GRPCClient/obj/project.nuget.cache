@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "V3wnaBFGHrXnVciJr0+5br0Vye3j9BcmgQ6wEAP7FZvk1oitBIke/FB4U7kUnLps/QqOslmTgrTW0ePJcZ41Lg==",
+  "dgSpecHash": "l4eMNJQ7N2WRyliirdzsLqDwfSjUjDS36hGHPBDFV8deBBGQ2XUp0KG0jcfmyPh9n541ShuieoKe7uNdTdl1/Q==",
   "success": true,
   "projectFilePath": "/Users/jakecummings/Projects/BuildCircleGRPC/GRPCClient/GRPCClient.csproj",
   "expectedPackageFiles": [
@@ -10,9 +10,7 @@
     "/Users/jakecummings/.nuget/packages/grpc.net.common/2.38.0/grpc.net.common.2.38.0.nupkg.sha512",
     "/Users/jakecummings/.nuget/packages/grpc.tools/2.39.1/grpc.tools.2.39.1.nupkg.sha512",
     "/Users/jakecummings/.nuget/packages/microsoft.extensions.logging.abstractions/3.0.3/microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
-    "/Users/jakecummings/.nuget/packages/system.diagnostics.diagnosticsource/4.5.1/system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512",
-    "/Users/jakecummings/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
-    "/Users/jakecummings/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    "/Users/jakecummings/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 
 namespace GRPCServer
 {
-    public class GameService
+    public class GameService : Game.GameBase
     {
         private readonly ILogger<GameService> _logger;
         public GameService(ILogger<GameService> logger)
@@ -17,7 +17,7 @@ namespace GRPCServer
 
 
         // public override Task<HelloReply> SayHello(HelloRequest request, ServerCallContext context)
-        public Task<EvaluateGame> PlayGame(GameRequest request, ServerCallContext context)
+        public override Task<EvaluateGame> PlayGame(GameRequest request, ServerCallContext context)
         {
             return Task.FromResult(new EvaluateGame
             {

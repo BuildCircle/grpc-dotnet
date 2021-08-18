@@ -1,12 +1,15 @@
 ﻿<Properties StartupConfiguration="{16734899-C692-40F8-9EAA-B39631290B84}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GRPCClient/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GRPCClient/obj/Debug/net5.0/Protos/GameGrpc.cs">
     <Files>
-      <File FileName="GRPCServer/Program.cs" Line="16" Column="1" />
-      <File FileName="GRPCServer/Startup.cs" Line="32" Column="42" />
-      <File FileName="GRPCServer/GRPCServer.csproj" />
-      <File FileName="GRPCServer/Services/GameService.cs" Line="19" Column="37" />
-      <File FileName="GRPCClient/Program.cs" Line="12" Column="40" />
-      <File FileName="GRPCClient/Protos/game.proto" Line="1" Column="1" />
+      <File FileName="GRPCServer/Program.cs" Line="31" Column="54" />
+      <File FileName="GRPCServer/Startup.cs" Line="30" Column="30" />
+      <File FileName="GRPCServer/GRPCServer.csproj" Line="18" Column="63" />
+      <File FileName="GRPCServer/Services/GameService.cs" Line="11" Column="6" />
+      <File FileName="GRPCClient/Program.cs" Line="16" Column="47" />
+      <File FileName="GRPCClient/Protos/game.proto" Line="8" Column="1" />
+      <File FileName="GRPCClient/GRPCClient.csproj" Line="31" Column="15" />
+      <File FileName="GRPCServer/Protos/game.proto" Line="1" Column="1" />
+      <File FileName="GRPCClient/obj/Debug/net5.0/Protos/GameGrpc.cs" Line="127" Column="76" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,14 +20,16 @@
               <Node name="Program.cs" selected="True" />
             </Node>
             <Node name="GRPCServer" expanded="True">
+              <Node name="ConnectedServicesFolder" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
               <Node name="Protos" expanded="True" />
               <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

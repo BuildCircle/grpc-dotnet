@@ -8,9 +8,6 @@
 using grpc = global::Grpc.Core;
 
 namespace GRPCClient {
-  /// <summary>
-  /// The greeting service definition.
-  /// </summary>
   public static partial class Game
   {
     static readonly string __ServiceName = "game.Game";

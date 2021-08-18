@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Grpc.AspNetCore" Version="2.34.0" />
+    <PackageReference Include="Grpc.AspNetCore" Version="2.38.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -15,6 +15,6 @@
     <None Remove="Protos\greet.proto" />
   </ItemGroup>
   <ItemGroup>
-    <Protobuf Include="Protos\game.proto" GrpcServices="Client" />
+    <Protobuf Include="Protos\game.proto" GrpcServices="Server" />
   </ItemGroup>
 </Project>
