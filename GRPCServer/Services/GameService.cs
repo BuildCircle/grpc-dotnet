@@ -19,9 +19,12 @@ namespace GRPCServer
         // public override Task<HelloReply> SayHello(HelloRequest request, ServerCallContext context)
         public override Task<EvaluateGame> PlayGame(GameRequest request, ServerCallContext context)
         {
+            var choices = new List<string>{ "ROCK", "PAPER", "SCISSORS" };
+            Random rnd = new Random();
+            var computerMove = choices.ElementAt(rnd.Next(3));
             return Task.FromResult(new EvaluateGame
             {
-                Message = "Your move: " + request.Move + ". Computer move: SCISSORS"
+                Message = computerMove
             });
                 
         }
